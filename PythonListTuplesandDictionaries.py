@@ -57,3 +57,30 @@ print(grades.extend(scores))
 print(scores.reverse())
 print(scores)
 print(grades)
+
+# Creating a New Tuple
+tupNames = ('Benjamin', 'Joy', 'Shepherd', 'Emmanuel', 'Mikael')
+tupGrades = ('A','B', 'C', 'D', 'E', 'F')
+tupScores = (78, 37, 48, 99, 89, "Enugu", "Lagos", "Aberdeen")
+
+# Accessing Elements of a Tuples
+print(tupGrades[0])
+print(tupNames[3])
+print(tupScores * 3)
+
+# Trying to Modify a Tuple
+# tupNames[0] = "Uchenna" # Error
+print(tupNames)
+
+for y in tupScores:
+    print(y)
+
+# Indexing, Slicing and Matrices in Tuples
+print(tupGrades[4])
+print(tupScores[-3])
+print(tupNames[2:])
+
+# Tuple Function
+print(max(tupNames))
+print(min(tupGrades))
+print(len(tupScores))
