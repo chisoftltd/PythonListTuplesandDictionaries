@@ -80,7 +80,28 @@ print(tupGrades[4])
 print(tupScores[-3])
 print(tupNames[2:])
 
+
 # Tuple Function
 print(max(tupNames))
 print(min(tupGrades))
 print(len(tupScores))
+
+# Creating in a Dictionary
+periodOfDay = {
+    1: "Morning",
+    2: "Afternoon",
+    3: "Evening",
+    4: "Night"
+}
+
+print("It is " + periodOfDay[1] + " time for breakfast.")
+print("It is " + periodOfDay[4] + " time for sleep.")
+
+# Dictionary Functions in Python
+print(str(periodOfDay))
+print(len(periodOfDay))
+
+# Dictionary Methods in Python
+print(periodOfDay.items())
+print(periodOfDay.keys())
+print(periodOfDay.values())
